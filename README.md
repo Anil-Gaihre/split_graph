@@ -4,3 +4,8 @@ The code is a simple application to split a graph in CSR format to multiple grap
 
 The code reads a binary CSR dataset "https://github.com/asherliu/graph_project_start/tree/master/tuple_text_to_binary_csr_mem", uses METIS (https://github.com/KarypisLab/METIS) to partition into differnt parts.
 The output of METIS is fed to the split_graph module to get a vector of subgraphs in CSR format.
+
+
+*Compile* make
+*Script to run: * run.sh 
+Note: The path the row offset (begin_pos) and adjancency array (CSR) needs to be updated by the user.
