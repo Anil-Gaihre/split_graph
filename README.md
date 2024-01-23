@@ -8,4 +8,4 @@ The output of METIS is fed to the split_graph module to get a vector of subgraph
 
 *Compile* make
 *Script to run: * run.sh 
-Note: The path the row offset (begin_pos) and adjancency array (CSR) needs to be updated by the user.
+Note: The path the row offset (begin_pos) and adjancency array (CSR) needs to be updated by the user
